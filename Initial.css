@@ -1,0 +1,212 @@
+#molnifyAppHtml .option-set > *:not(.active) { 
+    background-color: #C6C6C6 !important; 
+    /* border-color: #333333 !important;  */
+    color: #000000!important; 
+} 
+#molnifyAppHtml .option-set > .active { 
+    background-color: #b7c32d !important; 
+    border-color: #000000 !important; 
+    color: #000000 
+    !important;
+}
+/* fix floating right column that obscure button group */
+#rightColumn{
+    top: 80px;
+} 
+body {
+    background: #333333;
+}
+[aria-label]:after {
+  width: 250px; /* adjust width on tooltips */
+}
+.panel-heading {
+    background: #333333 !important; 
+}
+.panel-heading .panel-title {
+    /* Redaction of text size to 2em */
+    font: 500 2em "Cairo", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif !important;
+    color: #b7c32d !important;
+    font-family: 'Open Sans', "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    text-transform: uppercase;
+}
+.PanelHeaderColor{
+    text-transform: uppercase;
+}
+
+.switchery {
+    background-color: #333333;
+}
+ .btn.btn-success {
+    color: #ffffff !important;
+    background: #009DDE !important;
+    border-color: #0487b9 !important;
+ }
+
+.btn.btn-success:hover {
+         background: #00678f !important;
+}
+
+.btn {
+    border-radius: 0 !important;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+   
+}
+.btn-circle  {
+    border-radius: 10em !important;
+}
+.buttonMargin {
+    margin: 0px 10px 10px 0px;
+}
+.switchery[style*="box-shadow: rgb(0, 172, 172)"] {
+    box-shadow: #0487b9 0px 0px 0px 16px inset !important;
+    border-color: #0487b9 !important;;
+    background-color: #0487b9 !important;;
+}  
+.box01 { 
+    background: #ff0000 !important;
+}
+#responsive-image {  width: 50%;  height: auto; } 
+/* Redaction of css */
+/* Header css */
+/* Logo css */
+.logos {
+    width: 15vw;
+    max-width: 60px;
+}
+/* Title Css */
+.input-label {
+    display: inline-block;
+    /*vertical-align: -webkit-baseline-middle;*/
+    text-align: left;
+}
+.select-day-title{
+    display: inline-flex;
+    width: max-content;
+    vertical-align: bottom;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 1vw;
+}
+.eng-title{
+    font-size: 0.5em;
+    color: white;
+}
+/* Menu Css */
+#appHeaderRow{
+    display: inline-flex;
+    position: absolute;
+    flex-direction: row-reverse;
+    right: 0;
+    right: 0vw;
+    top: 2vw;
+    height: 3px;
+}
+/* /Header CSS */
+
+/* Content CSS */
+.content{
+    padding-top: 0 !important;
+}
+@media (max-width: 767px){
+    .content {
+        margin-left: 0;
+        padding-top: 0px;
+    }
+}
+.body{
+    color: black ;
+}
+/* Legend CSS */
+
+legend{
+    font-size: 16px !important;
+    margin-bottom: 0px !important;
+    margin-top: 10px;
+}
+/* Main columns CSS */
+.input-simple-layout {
+    padding-top: 0px !important;
+}
+
+.form-group{
+    margin-bottom: 0 !important;
+    padding-top: 5px !important;
+}
+/* Left-colum CSS */
+.col-sm-4 {
+    /* margin-bottom: 6px; */
+    /* width: 33.33333333%; */
+    width: unset !important;
+    min-width: 50%;
+    text-align: left !important;
+}
+/* Right-column CSS */
+.input-group{
+    width: fit-content;
+}
+.col-sm-8{
+    /* width: unset !important; */
+    padding-top: 7px;
+    margin-bottom: 0;
+    min-width: 170px;
+    width:40%;
+    /* max-width: 50%; */
+ 
+}
+.out-html{
+    margin: 5px;
+    color: #000000;
+
+}
+/* Translation comments CSS */
+.translated{
+    color: #707478;
+    display: block;
+}
+/* Buttons */
+.button-wrapping{
+    clear:left !important;
+    margin-top: 10px !important;
+    width: 100%;
+    margin-left: 40%;
+}
+.button-translator{
+    display: contents;
+}
+
+/* Fixing shrinking of right columns */
+@media (min-width: 400px){
+    .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+        float: left !important;
+
+    }
+}
+
+/* Fixing signature box height */
+.jSignature{
+    height: 150px !important;
+    width: 200px !important;
+}
+@media (max-width: 767px){
+    .content {
+        margin-left: 0;
+        padding: 0px !important;
+    }
+}
+
+/* Hover rule for rows in Table */
+/* tr:hover{
+    background-color: #3c9edf; */
+/* } */
+/* CSS for Iframe APP */
+.deviation-npapp{
+    width:-webkit-fill-available;
+}
+#deviations{
+    position: relative;
+    width: 100%;
+    border: unset;
+}
+.form-group.deviation-npapp-form-group-class{
+    padding: 0px;
+}
