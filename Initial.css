@@ -13,11 +13,12 @@
 #rightColumn{
     top: 80px;
 } 
-body {
-    background: #333333;
-}
 [aria-label]:after {
   width: 250px; /* adjust width on tooltips */
+}
+body{
+background: white; 
+
 }
 .panel-heading {
     background: #333333 !important; 
@@ -195,18 +196,25 @@ legend{
 }
 
 /* Hover rule for rows in Table */
-/* tr:hover{
-    background-color: #3c9edf; */
-/* } */
-/* CSS for Iframe APP */
-.deviation-npapp{
-    width:-webkit-fill-available;
+tr:hover{
+    background-color: #3c9edf;
 }
-#deviations{
-    position: relative;
+
+.panel-body.input-panel-body{
+    padding: unset !important;
+}
+
+#leftColumn{
+    width: -webkit-fill-available;
+    padding: 0px !important;
+}
+#rightColumn{
+    display:none;
+}
+#content{
     width: 100%;
-    border: unset;
+    padding: 0px !important;
 }
-.form-group.deviation-npapp-form-group-class{
-    padding: 0px;
+.panel-body.input-panel-body{
+    margin-left: 15px;
 }
